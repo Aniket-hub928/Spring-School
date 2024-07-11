@@ -1,0 +1,53 @@
+.header{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    
+}
+
+
+
+.class1{
+    margin: 0%; 
+    width: 15%;
+}
+
+.class2{
+    background-color: black;
+    color: rgb(0, 89, 255);    
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 70%;
+}
+
+.class3{
+    
+    width: 10%;
+}
+
+.h1{
+    text-align: center;
+}
+
+
+
+/*@media screen  and (max-width:900px ){
+    .class1 , .class2{
+        width: 50%;
+    }
+
+    .class3{
+        width: 100%;
+    }
+
+} */
+
+@media screen  and (max-width:500px ){
+    .class1 , .class2 {
+        width: 100%;
+    }
+
+} 
